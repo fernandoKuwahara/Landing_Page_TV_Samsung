@@ -11,7 +11,7 @@ Qual Framework foi utilizado?
 - JQuery e AJAX.
 
 Quanto Tempo Levou Para Concluir o Projeto?
-- 5.5 horas.
+- 8.5 horas.
 
 Imagens:
 - Todas as imagens foram usadas e utilizadas das disponíveis pelo Google Images.
@@ -23,7 +23,7 @@ Site usado de Referência para o Projeto:
 - Samsung
 
 Responsividade do Projeto.
-- A responsividade do projeto foi feita com base nos padrões disponibilizados pelo próprio chrome.
+- A responsividade do projeto foi feita com base nos padrões disponibilizados pelo próprio chrome, com tamanhos de celulares disponiveis.
 
 Dica:
 - Quando estiver mexendo com Imagens, procure sempre aquelas que tenham as mesmas proporções.
