@@ -1,0 +1,8 @@
+create database Landing_Page_TV_LED_Samsung;
+use Landing_Page_TV_LED_Samsung;
+create table EmailsCadastrados (email varchar(128) primary key not null);
+
+AVISO:
+
+- A Responsividade Do Site Foi Feita Utilizando Os Tamanhos Já Pré Definidos
+Pelo Próprio Google.

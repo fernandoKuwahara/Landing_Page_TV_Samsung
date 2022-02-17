@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Trecho De CSS Do Menu Da Televisão*/
+
+.barraDeMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, black, #1c1c1c);
+    z-index: 10;
+}
+
+.barraDeMenu .logoSamsung{
+    margin-left: 2%;
+}
+
+.barraDeMenu .botaoEmailParaPromocoes{
+    margin-right: 2%;
+}
+
+.barraDeMenu .logoSamsung img{
+    height: 100%;
+    width: 200px;
+}
+
+.barraDeMenu .botaoEmailParaPromocoes a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s ease-out;
+}
+
+.barraDeMenu .botaoEmailParaPromocoes a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Trecho De CSS Do Carrossel Da Televisão*/
+
+.televisor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    height: 32rem;
+}
+
+.televisor .botaoAnuncios{
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.televisor .botaoAnuncios a{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    text-decoration: none;
+    background-color: #1780ff;
+    border: 2px solid;
+    transition: 0.5s ease-out;
+}
+
+.televisor .botaoAnuncios a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid #1780ff;
+}
+
+.televisor .carrosselTelevisor{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrosselTelevisor img{
+    width: 41rem;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carrosselTelevisor a span{
+    background-color: black;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+/*Trecho De CSS Do Destaques Da Televisão*/
+
+.destaquesProduto{
+    width: 100%;
+    height: 20rem;
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+.destaquesProduto .destaque{
+    width: 12rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+}
+
+.destaquesProduto .destaque .icones{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    position: relative;
+    top: -3.5rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.destaquesProduto .destaque .texto{
+    height: 95%;
+    padding: 5px;
+    position: relative;
+    top: -55%;
+}
+
+/*Trecho De CSS Do Formulário Da Televisão*/
+
+.form{
+    width: 100%;
+    height: 30rem;
+    padding: 15px;
+    background: linear-gradient(120deg, black, #1c1c1c);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form .textoForm{
+    width: 45%;
+    height: 50%;
+    color: white;
+}
+
+.form .inputsForm{
+    width: 30%;
+    height: 50%;
+    padding: 3rem;
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.form .inputsForm #iptEmail{
+    position: absolute;
+    top: 3.5rem;
+    left: 3.5rem;
+    padding: 10px;
+    border-radius: .5rem;
+    border: 1px solid #99cdebd2;
+}
+
+.form .inputsForm #btnEnviar{
+    position: absolute;
+    bottom: 2.5rem;
+    right: 3.5rem;
+    padding: 5px 20px;
+    border-radius: 2rem;
+    background-color: #1780ff;
+    color: white;
+    border: none;
+    transition: 0.5s ease-out;
+}
+
+.form .inputsForm #btnEnviar:hover{
+    background-color: #0060d4;
+}
+
+/*Trecho De CSS Dos Emails Cadastrados Da Televisão*/
+
+.especificacoesTecnicas{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #edf0f4;
+}
+
+.emailsCadastrados{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.emailsCadastrados a{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    letter-spacing: 3px;
+    margin: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s ease-out;
+}
+
+.emailsCadastrados a:hover{
+    background-color: whitesmoke;
+    color: #1c1c1c;
+}
+
+.inputsForm .resultado{
+    color: green;
+}
+
+/*Trecho De CSS Da Responsividade Resolução 4K Do Site*/
+
+@media screen and (max-width:2560px){
+
+    .televisor .carrosselTelevisor{
+        width: 25%;
+    }
+    
+}
+
+/*Trecho De CSS Da Responsividade Resolução 2K Do Site*/
+
+@media screen and (max-width:1440px){
+
+    .televisor .carrosselTelevisor{
+        width: 45%;
+    }
+
+}
+
+/*Trecho De CSS Da Responsividade Resolução Full HD Do Site*/
+
+@media screen and (max-width:1024px){
+    
+    .televisor .botaoAnuncios{
+        width: 25%;
+    }
+    
+    .televisor .carrosselTelevisor{
+        width: 40%;
+    }
+    
+    .carrosselTelevisor img{
+        width: 31rem;
+    }
+
+    .form .inputsForm #iptEmail{
+        left: 2rem;
+        top: 3rem;
+    }
+    
+    .form .inputsForm #btnEnviar{
+        right: 3rem;
+    }
+
+}
+
+/*Trecho De CSS Da Responsividade Resolução HD Do Site*/
+
+@media screen and (max-width:768px){
+
+    .televisor .botaoAnuncios{
+        width: 50%;
+    }
+
+    .televisor{
+        height: 38rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .televisor .carrosselTelevisor{
+        width: 30%;
+        height: 40%;
+    }
+    
+    .carrosselTelevisor img{
+        width: 21rem;
+    }
+
+    .form{
+        height: 26rem;
+    }
+
+    .form .textoForm{
+        width: 28rem;
+    }
+
+    .form .inputsForm{
+        padding: 15px;
+    }
+
+    .form .inputsForm #iptEmail{
+        left: 1rem;
+        top: 1.5rem;
+        width: 86%;
+    }
+    
+    .form .inputsForm #btnEnviar{
+        right: 1rem;
+        bottom: 1.5rem;
+    }
+
+    .especificacoesTecnicas{
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .especificacoesTecnicas .especificacoes{
+        padding: 20px;
+    }
+
+}
+
+/*Trecho De CSS Da Responsividade Resolução Baixas Do Site*/
+
+@media screen and (max-width:425px){
+
+    .televisor{
+        height: 36rem;
+    }
+
+    .televisor .botaoAnuncios{
+        width: 90%;
+    }
+    
+    .televisor .carrosselTelevisor{
+        width: 25%;
+    }
+
+    .barraDeMenu .botaoEmailParaPromocoes a{
+        display: block;
+        padding: 5px;
+        letter-spacing: 1px;
+        border-radius: 1rem;
+        font-weight: 400;
+        text-align: right;
+    }
+
+    .barraDeMenu .logoSamsung img{
+        height: 100%;
+        width: 120px;
+    }
+
+    .destaquesProduto{
+        padding: 15px;
+        height: 30rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .destaquesProduto .destaque{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .destaquesProduto .destaque .icones{
+        top: -3.5rem;
+    }
+
+    .destaquesProduto .destaque .icones #smart{
+        top: 3rem;
+    }
+
+    .especificacoesTecnicas{
+        height: 50rem;
+    }
+
+    .form{
+        height: 30rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 30px;
+    }
+    
+    .form .inputsForm{
+        width: 80%;
+        height: 10rem;
+    }
+
+    .form .inputsForm #iptEmail{
+        width: 89%;
+    }
+
+}
+
+/*Trecho De CSS Da Responsividade Resolução De Celulares Pequenos Do Site*/
+
+@media screen and (max-width:375px){
+
+    .destaquesProduto{
+        height: 45rem;
+    }
+
+    .form{
+        padding: 15px;
+    }
+    
+    .barraDeMenu{
+        height: 60px;
+    }
+
+    .barraDeMenu .botaoEmailParaPromocoes a{
+        padding: 5px 10px;
+        letter-spacing: none;
+        font-weight: 300;
+    }
+
+    .barraDeMenu .logoSamsung img{
+        width: 85px;
+    }
+
+}
+
+/*Trecho De CSS Da Responsividade Resolução De Celulares Pequenos Do Site*/
+
+@media screen and (max-width:320px){
+    
+    .barraDeMenu .botaoEmailParaPromocoes a{
+        padding: 3px 7px;
+        letter-spacing: none;
+        font-weight: 200;
+    }
+
+    .barraDeMenu .logoSamsung img{
+        width: 65px;
+    }
+
+    .televisor{
+        height: 40rem;
+    }
+
+    .form .inputsForm #iptEmail{
+        width: 86%;
+    }
+
+}
